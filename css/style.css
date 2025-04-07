@@ -273,3 +273,44 @@ span{
     transform: scale(1.05);
     color: black;
 }
+
+.about{
+    display: flex;
+    width: 85%;
+    height: 70vh;
+    margin: 5% auto;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+.aboutBox{
+    width: 40%;
+    text-align: justify;
+}
+.aboutBox img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
+}
+.aboutBox h1{
+    font-weight: 700;
+    font-size: 3rem;
+    margin: 0;
+}
+.aboutBox h4{
+    font-weight: 400;
+    font-size: 2rem;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.aboutBox p{
+    font-size: 1.2rem;
+    color: #4d4d4d70;
+    letter-spacing: 0.5px;
+    margin-top: 5px;
+}
+.box1{
+    margin: 5%;
+}
